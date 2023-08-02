@@ -10,7 +10,6 @@ body {
 	background-size: cover;
 }
 
-
 .mid {
 	width: 100%;
 }
@@ -49,7 +48,7 @@ h1 {
 }
 
 .journal,.input,.about {
-	width: 90%;
+	width: 95%;
 	max-width: 700px;
 	margin: auto auto;
 	border-radius: 15px;
