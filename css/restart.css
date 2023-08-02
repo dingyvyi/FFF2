@@ -1,0 +1,152 @@
+body {
+	font-family: 'STKaiti';
+	font-size: 18px;
+	width: 100%;
+	height: 100%;
+	background: url('./../img/top.jpg');
+	background-attachment: fixed;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.mid {
+	width: 100%;
+}
+
+.journal,.input,.header-box,.about {
+	background:rgba(255, 255, 255, 0.7);
+}
+
+.header {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.header-box {
+	margin: auto auto;
+	width:100%;
+	height: 50px;
+	max-width: 700px;
+	border-radius: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.input-title,.form {
+	text-align: center;
+	line-height: 2rem;
+	font-weight: bold;
+}
+
+.about {
+	text-align: center;
+	line-height: 1.6rem;
+	font-weight: bold;
+}
+
+.journal,.input,.about {
+	width: 90%;
+	max-width: 700px;
+	margin: auto auto;
+	border-radius: 15px;
+	margin-top: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+input {
+	width: 30px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 15px;
+	text-align: center;
+}
+
+input,.bt-ad,.bt-mi {
+	border-width: 1.5px;
+	border-color: rgb(135, 127, 119);
+	height: 18px;
+}
+
+.bt-cl,.bt-sm {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-width: 1px;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.6);
+	font-family: 'STKaiti';
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.bt-sm:hover {
+	background: rgba(255, 255, 255, 1);
+}
+
+.bt-sm {
+	margin-left: 0px;
+}
+
+.bt-ad,.bt-mi {
+	border-width: 1px;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.1);
+	font-size: 5px;
+	font-weight: 700;
+	width: 18px;
+}
+
+.bt-ad {
+	margin-right: 5px;
+	text-align: left;
+}
+.bt-mi {
+	margin-left: 5px;
+	text-align: right;
+}
+
+.journal-box {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.journal-title {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.journal-frame {
+	width: 100%;
+	
+}
+
+iframe {
+	border: none;
+}
+
+object {
+	width: 100%;
+}
+
+embed {
+	width: 100%;
+}
+
+.journal,.journal-content,.journal-box,.journal-frame,object,embed {
+	height: 250px;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.hdn {
+	display: none;
+}
+
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+}
